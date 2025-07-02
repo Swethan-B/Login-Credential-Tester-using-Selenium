@@ -1,19 +1,18 @@
-Login Credential Tester using Selenium (Python)
+🔐Login Credential Tester using Selenium (Python)
 ===============================================
 
 This script allows you to test multiple sets of login credentials on any website with a login form using Selenium. It intelligently detects whether login was successful or not and automatically logs out before attempting the next login.
 
 -------------------------------------------------
-Features:
+✅ Features:
 -------------------------------------------------
 - Accepts dynamic login page URLs from user input
 - Accepts multiple username/password sets to test
 - Automatically detects login success or failure
 - Logs out automatically if login is successful
-- Works on most standard HTML login forms
 
 -------------------------------------------------
-Requirements:
+ 🧰 Requirements:
 -------------------------------------------------
 - Python 3.7 or higher
 - Google Chrome browser installed
@@ -25,7 +24,7 @@ Install Selenium using pip:
 > pip install selenium
 
 -------------------------------------------------
-How to Use:
+🚀 How to Use:
 -------------------------------------------------
 1. Run the script:
    > python login_tester.py
@@ -44,9 +43,9 @@ How to Use:
    - Repeat for all credentials
 
 -------------------------------------------------
-Sample Run:
+🧪Sample Run:
 -------------------------------------------------
-🔗 Enter the full login page URL: https://testphp.vulnweb.com/login.php
+🔗 Enter the full login page URL: https://testphp.vulnweb.com/login.php     
 🧪 How many credential sets to test? 2
 
 🧾 Credential Set 1
@@ -59,12 +58,12 @@ Sample Run:
 
 ================= 🔍 Running Tests =================
 
-🧪 Test 1: test / test
-✅ Login Successful
-↪️ Logged out after login.
+🧪 Test 1: test / test    
+✅ Login Successful      
+↪️ Logged out after login.        
 
-🧪 Test 2: wrong / wrong
-❌ Login Failed: Invalid Credentials
+🧪 Test 2: wrong / wrong       
+❌ Login Failed: Invalid Credentials      
 
 ✅ All tests completed.
 
