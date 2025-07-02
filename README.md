@@ -72,7 +72,7 @@ Install Selenium using pip:
 -------------------------------------------------
 - login_tester.py        : Main Python script
 - requirements.txt       : Python module list (just contains 'selenium')
-- README.txt             : This documentation file
+- README.md              : This documentation file
 
 -------------------------------------------------
 👤 Author:
